@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Taviraj:wght@100;300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Taviraj:wght@100;300;800&display=swap');
+
+
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: white;
+
+    
+
+
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 15px;
+    color:#e88baa;
+    margin:auto;
+    border-radius: 150px;
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 40px;
+    font-family: 'Taviraj', serif;
+    color:#e88baa;
+
+
+
+}
+
+body {
+
+    background-color: rgb(131, 236, 255);
+
+    background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+}
+
+
+li {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+img {
+    width: 300px;
+    border: solid 5px rgb(83, 229, 255);
+    border-radius: 20px;
+
+}
+
+p {
+    font-family: 'Taviraj', serif;
+    font-size: 20px;
+    color: rgb(108, 105, 105);
+    font: bold; 
+}
+
+h2 {
+    font-family: 'Taviraj', serif;
+    color:rgb(108, 105, 105);
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px){
+
+}
